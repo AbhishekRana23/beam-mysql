@@ -42,6 +42,7 @@ common common-lang
     , safe-exceptions
     , text
     , unordered-containers
+    , utf8-string
 
   default-extensions:
     DataKinds
@@ -60,6 +61,7 @@ common common-lang
     TupleSections
     TypeApplications
     TypeFamilies
+    TypeOperators
     TypeSynonymInstances
     UndecidableInstances
 

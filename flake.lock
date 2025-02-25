@@ -8,20 +8,21 @@
         ],
         "nixpkgs": [
           "nixpkgs"
-        ]
+        ],
+        "testcontainers": "testcontainers"
       },
       "locked": {
-        "lastModified": 1693307537,
-        "narHash": "sha256-BIq3ZjZQWQ0w3zWA19zGBggiVVfnOzR5d4b7De0oVZY=",
-        "owner": "arjunkathuria",
+        "lastModified": 1740469015,
+        "narHash": "sha256-DIil2KXGlQuxt8MbaHistwDD20yLp7sKGu2u4QkhdH8=",
+        "owner": "AbhishekRana23",
         "repo": "beam",
-        "rev": "06bcc50997fdcfb87125bed252e888e5dd1e6d9c",
+        "rev": "9659a3acc41f595a4231c0afccb1c5009956c15f",
         "type": "github"
       },
       "original": {
-        "owner": "arjunkathuria",
-        "ref": "GHC-927-Upgrade",
+        "owner": "AbhishekRana23",
         "repo": "beam",
+        "rev": "9659a3acc41f595a4231c0afccb1c5009956c15f",
         "type": "github"
       }
     },
@@ -214,6 +215,23 @@
         "haskell-flake": "haskell-flake",
         "mysql-haskell": "mysql-haskell",
         "nixpkgs": "nixpkgs"
+      }
+    },
+    "testcontainers": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1731661153,
+        "narHash": "sha256-99JgvmLJ0Uys8kM4pt3MnML1kWpmbZOuoxMD2ofUkwA=",
+        "owner": "testcontainers",
+        "repo": "testcontainers-hs",
+        "rev": "e286bd2ba9747c2d8c3756a3a89910e579e318e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "testcontainers",
+        "repo": "testcontainers-hs",
+        "rev": "e286bd2ba9747c2d8c3756a3a89910e579e318e3",
+        "type": "github"
       }
     },
     "word24": {

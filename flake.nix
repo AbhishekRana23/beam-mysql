@@ -13,7 +13,8 @@
     mysql-haskell.inputs.haskell-flake.follows = "haskell-flake";
 
     ## Use Juspay upstream after PR merged - https://github.com/juspay/beam/pull/21
-    beam.url = "github:arjunkathuria/beam/GHC-927-Upgrade";
+    # beam.url = "github:arjunkathuria/beam/GHC-927-Upgrade";
+    beam.url = "github:AbhishekRana23/beam/9659a3acc41f595a4231c0afccb1c5009956c15f";
     beam.inputs.haskell-flake.follows = "haskell-flake";
     beam.inputs.nixpkgs.follows = "nixpkgs";
 
@@ -28,7 +29,7 @@
       perSystem = { self', pkgs, lib, config, ... }: {
         haskellProjects.default = {
           projectFlakeName = "beam-mysql";
-          basePackages = pkgs.haskell.packages.ghc927;
+          basePackages = pkgs.haskell.packages.ghc94;
           imports = [
             inputs.beam.haskellFlakeProjectModules.output
             inputs.mysql-haskell.haskellFlakeProjectModules.output
