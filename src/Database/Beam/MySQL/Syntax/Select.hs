@@ -531,8 +531,6 @@ instance IsSql92ExpressionSyntax MySQLExpressionSyntax where
     [MySQLExpressionSyntax] ->
     MySQLExpressionSyntax
   inE e = In e . fromList
-  inSelectE :: MySQLExpressionSyntax -> MySQLSelect -> MySQLExpressionSyntax
-  inSelectE e select = In e (fromList [Subquery select]) -- Check on the implementation once.
   {-# INLINABLE betweenE #-}
   betweenE ::
     MySQLExpressionSyntax ->
